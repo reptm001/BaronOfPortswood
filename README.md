@@ -8,12 +8,19 @@ The narrative itself is coded and contained as a .ink file. Ink is a narrative s
 The main story engine is contained within a C# script, as part of a story engine object. All relevant game world objects are referenced through this object. This script runs through the .ink file line-by-line, displaying each content text of the narrative through a UI text object. At the same time, the script reads in tags for each line and the available choices where applicable. 
 
 Tags are used to translate narrative components to game world components:
+
     • Enabling text input at a point in the narrative
+    
     • Waiting for the player to interact with a certain game world object before continuing
+    
     • Enabling a game world object once it is mentioned in the narrative
+    
     • Applying a time delay between lines in the narrative
+    
     • Beginning a scripted event at a certain point in the narrative
+    
     • Spawning/De-spawning a character once they are mentioned in the narrative
+    
     • Changing the background audio to tense music at tense points in the narrative
 
 When the narrative prompts for a choice, the choices are presented to the user through clickable UI components. Clicking a button will select that choice, progressing the narrative.
