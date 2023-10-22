@@ -1,0 +1,60 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &8726484096036732884
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6171307210157623470}
+  - component: {fileID: -8195027817850082040}
+  m_Layer: 0
+  m_Name: GameAssets
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &6171307210157623470
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8726484096036732884}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -1.6828449, y: 0.9266381, z: -57.094524}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &-8195027817850082040
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8726484096036732884}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c1acd8c5168e91f41b52da6a30af0838, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  soundAudioClipArray:
+  - sound: 0
+    audioClip: {fileID: 8300000, guid: 5d18fbcfc0d4cb548b7850dbba26136a, type: 3}
+  - sound: 1
+    audioClip: {fileID: 8300000, guid: 278024812fa8dba4183561f5823166d9, type: 3}
+  - sound: 2
+    audioClip: {fileID: 8300000, guid: 15fc8dbd0cdb3b847a16342e1cf94cd1, type: 3}
+  - sound: 3
+    audioClip: {fileID: 8300000, guid: 6b695f84fab91d9488b6a07eda54ad46, type: 3}
+  - sound: 4
+    audioClip: {fileID: 8300000, guid: a63560aa8291d7749b2b4b7ba90ff4bb, type: 3}
+  - sound: 5
+    audioClip: {fileID: 8300000, guid: 8b398dc7ef798ae4d94c7eb92d069713, type: 3}
+  - sound: 6
+    audioClip: {fileID: 8300000, guid: 6952f8d580794be418a88c581e170fef, type: 3}
